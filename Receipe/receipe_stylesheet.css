@@ -1,0 +1,89 @@
+section {
+	width: 650px;
+	margin:auto;
+}
+
+
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	box-shadow: 10px 10px 5px #FF9933;
+	margin-right: 20px;
+	border-radius: 25%
+
+}
+
+table, td, th {
+    border-collapse: collapse;
+	text-align: center;
+}
+
+table {
+	width: 75%;
+}
+
+ul li {
+	background: #eeeeee;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 1em;
+	font-size: 1em;
+	height: 100%;
+	text-align: left;
+
+}
+
+.completed {
+	background: #F39814; color: white;
+	cursor: pointer;
+}
+
+
+#pic {
+	position:relative;
+	float: right;
+	background-color: #FF9933;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+.grow img {
+	height: 400px;
+	width: 400px;
+
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    	transition: all 1s ease;
+}
+
+.grow img:hover {
+	width:500px;
+	height:500px;
+}
+
+
+.left {
+	position:relative;
+	float:left;
+
+}
+
+.right{
+	position:relative;
+	float:left;
+}
+
+#Ingredients {
+	clear:left;
+}
