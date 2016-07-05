@@ -24,6 +24,10 @@ table {
 	width: 75%;
 }
 
+ul {
+	list-style: none;
+}
+
 ul li {
 	background: #eeeeee;
 	border-radius: 5px;
@@ -42,7 +46,7 @@ ul li {
 }
 
 
-#pic {
+.picShow {
 	position:relative;
 	float: right;
 	background-color: #FF9933;
@@ -55,6 +59,10 @@ ul li {
     font-size: 12px;
 }
 
+.picHide {
+
+	display: none;
+}
 
 .grow img {
 	height: 400px;
